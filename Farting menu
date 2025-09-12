@@ -1,0 +1,1 @@
+javascript:fetch(%22https://raw.githubusercontent.com/cabscer/cabscer/refs/heads/main/Cabscer%20prod%20cheat%20menu%22).then(t=%3Et.text()).then(t=%3E%7Blet%20e=document.createElement(%22script%22);e.textContent=t,document.body.appendChild(e)%7D).catch(t=%3Econsole.error(%22Error%20fetching%20the%20script:%22,t));
