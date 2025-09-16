@@ -1,0 +1,159 @@
+// Made by Cabscer
+// Modified to allow pet levels over 10000
+
+function createPetUI() {
+    // Create UI container
+    let uiContainer = document.createElement('div');
+    uiContainer.style.position = 'fixed';
+    uiContainer.style.left = '100px';
+    uiContainer.style.top = '100px';
+    uiContainer.style.backgroundColor = '#f0f0f0';
+    uiContainer.style.border = '2px solid #333';
+    uiContainer.style.padding = '10px';
+    uiContainer.style.fontFamily = 'Arial, sans-serif';
+    uiContainer.style.zIndex = '1000';
+    uiContainer.style.boxShadow = '0px 0px 10px rgba(0,0,0,0.5)';
+    uiContainer.style.borderRadius = '5px';
+    uiContainer.style.width = '300px';
+    
+    uiContainer.innerHTML = `
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <h2 style="margin: 0;">Pet Selector</h2>
+            <button id="ui-exit" style="background: red; color: white; border: none; border-radius: 5px; cursor: pointer;">X</button>
+        </div>
+        <div style="margin: 10px 0;">
+            <label for="pet-select">Select Pet:</label>
+            <select id="pet-select" style="width: 100%; padding: 5px; border-radius: 5px; border: 1px solid #ccc;"></select>
+        </div>
+        <div style="margin: 10px 0;">
+            <label for="pet-level">Level (1-100000):</label>
+            <input id="pet-level" type="number" min="1" max="100000" value="1" style="width: 100%; padding: 5px; border-radius: 5px; border: 1px solid #ccc;" />
+        </div>
+        <button id="add-pet" style="background: blue; color: white; border: none; border-radius: 5px; padding: 10px; cursor: pointer; width: 100%;">Add Pet</button>
+        <button id="get-all-pets" style="background: green; color: white; border: none; border-radius: 5px; padding: 10px; cursor: pointer; width: 100%; margin-top: 10px;">Get All Pets</button>
+        <button id="delete-all-pets" style="background: red; color: white; border: none; border-radius: 5px; padding: 10px; cursor: pointer; width: 100%; margin-top: 10px;">Delete All Pets</button>
+        <div style="margin-top: 10px; text-align: center; font-size: 12px; color: #555;">
+            <span>Made by CrackinPMG</span>
+            <a href="https://www.youtube.com/@CrackinPMG" target="_blank" style="color: #007bff; text-decoration: none; margin-left: 10px;">YouTube Channel</a>
+        </div>
+    `;
+    
+    document.body.appendChild(uiContainer);
+    makeDraggable(uiContainer);
+    
+    // Populate pet selector
+    let petSelect = document.getElementById('pet-select');
+    let petData = Boot.prototype.game._state._petData._gameData.pet;
+    
+    // Sort pets alphabetically by name
+    petData.sort((a, b) => a.source.name.localeCompare(b.source.name));
+    
+    petData.forEach(pet => {
+        let option = document.createElement('option');
+        option.value = pet.ID;
+        option.textContent = pet.source.name;
+        petSelect.appendChild(option);
+    });
+    
+    // Level input validation
+    let levelInput = document.getElementById('pet-level');
+    levelInput.addEventListener('change', () => {
+        let level = parseInt(levelInput.value);
+        if (isNaN(level)) {
+            levelInput.value = '';
+        } else if (level < 1) {
+            levelInput.value = 1;
+        } else if (level > 100000) {
+            levelInput.value = 100000;
+        }
+    });
+    
+    // Exit button functionality
+    document.getElementById('ui-exit').addEventListener('click', () => {
+        document.body.removeChild(uiContainer);
+    });
+    
+    // Add pet button functionality
+    document.getElementById('add-pet').addEventListener('click', () => {
+        let petId = parseInt(petSelect.value);
+        let level = parseInt(document.getElementById('pet-level').value);
+        
+        // Check if pet ID and level are valid (now allowing levels up to 100000)
+        if (petId && level >= 1 && level <= 100000) {
+            let gameData = Boot.prototype.game._state._gameData;
+            gameData.kennel.addPet(petId.toString(), 100000, 100000, level);
+            gameData.kennel.saveEnabled = true;
+            gameData.user.appearance.updated = true;
+            gameData.updated = true;
+            gameData.appearanceChanged = true;
+            gameData.forceSaveCharacter();
+            gameData.saveEnabled = true;
+            console.log('Added pet with ID ' + petId + ' at level ' + level + '.');
+        } else {
+            console.error('Invalid pet ID or level.');
+        }
+    });
+    
+    // Get all pets button functionality
+    document.getElementById('get-all-pets').addEventListener('click', () => {
+        let petData = Boot.prototype.game._state._petData._gameData.pet;
+        let gameData = Boot.prototype.game._state._gameData;
+        let level = parseInt(document.getElementById('pet-level').value);
+        
+        petData.forEach(pet => {
+            gameData.kennel.addPet(pet.ID.toString(), 100000, 100000, level);
+        });
+        
+        gameData.kennel._petTeam.updated = true;
+        gameData.user.appearance.updated = true;
+        gameData.updated = true;
+        gameData.appearanceChanged = true;
+        gameData.forceSaveCharacter();
+        gameData.saveEnabled = true;
+        console.log('Added all pets at level ' + level + '.');
+    });
+    
+    // Delete all pets button functionality
+    document.getElementById('delete-all-pets').addEventListener('click', () => {
+        let gameData = Boot.prototype.game._state._gameData;
+        gameData.kennel._petTeam = [];
+        gameData.kennel._current[0] = null;
+        gameData.kennel._petTeam[1] = null;
+        gameData.kennel.updated = true;
+        gameData.user.appearance.updated = true;
+        gameData.updated = true;
+        gameData.appearanceChanged = true;
+        gameData.forceSaveCharacter();
+        gameData.saveEnabled = true;
+        console.log('Deleted all pets.');
+    });
+}
+
+function makeDraggable(element) {
+    let isDragging = false;
+    let offsetX, offsetY;
+    
+    element.addEventListener('mousedown', e => {
+        // Check if click is on the header area (first 30px) or exit button
+        if (e.clientY - element.getBoundingClientRect().top <= 30 || 
+            element.getBoundingClientRect().top - e.clientY <= 50) {
+            isDragging = true;
+            offsetX = e.clientX - element.getBoundingClientRect().left;
+            offsetY = e.clientY - element.getBoundingClientRect().top;
+        }
+    });
+    
+    document.addEventListener('mousemove', e => {
+        if (isDragging) {
+            element.style.left = e.clientX - offsetX + 'px';
+            element.style.top = e.clientY - offsetY + 'px';
+        }
+    });
+    
+    document.addEventListener('mouseup', () => {
+        isDragging = false;
+    });
+}
+
+// Initialize the UI
+createPetUI();
