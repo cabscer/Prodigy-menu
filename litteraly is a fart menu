@@ -1,0 +1,1 @@
+javascript:fetch("https://raw.githubusercontent.com/cabscer/prodigy-cheat-menu-but-weird/refs/heads/main/fart menu").then(t=>t.text()).then(t=>%7Blet e=document.createElement("script");e.textContent=t,document.body.appendChild(e)%7D).catch(t=>console.error("Error fetching the script:",t));
