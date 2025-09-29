@@ -6,7 +6,7 @@ ui.appendChild(title);
 var input = document.createElement('input');
 input.type = 'number';
 input.min = '1';
-input.max = '100000';
+input.max = '9999999999';
 input.style.cssText = 'width:100%;padding:8px;border:1px solid #ccc;border-radius:4px;margin-bottom:10px;';
 ui.appendChild(input);
 var submit = document.createElement('button');
@@ -14,8 +14,8 @@ submit.textContent = 'Set Level';
 submit.style.cssText = 'padding:10px 15px;background:green;color:white;border:none;border-radius:4px;cursor:pointer;';
 submit.onclick = function() {
     var level = parseInt(input.value);
-    if (isNaN(level) || level < 1 || level > 100000) {
-        alert("Enter a valid number (1-100,000).");
+    if (isNaN(level) || level < 1 || level > 9999999999) {
+        alert("Enter a valid number (1-9,999,999,999).");
         return;
     }
 
