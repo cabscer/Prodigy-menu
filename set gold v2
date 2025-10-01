@@ -1,0 +1,47 @@
+setGoldButton.addEventListener("click", function() {
+  Swal.fire({
+    title: "Set Gold",
+    input: "number",
+    inputPlaceholder: "",
+    showCancelButton: true,
+    confirmButtonText: "Set",
+    cancelButtonText: "Cancel",
+    customClass: {
+      container: "my-swal",
+      popup: "my-popup"
+    },
+    inputValidator: function(e) {
+      if (!e || isNaN(e) || e < 1 || e > 1e9 || e % 1 != 0) {
+        Swal.fire({
+          title: "Error",
+          text: "Please enter a valid whole number between 1 and 1,000,000,000",
+          icon: "error",
+          timer: 1500,
+          showConfirmButton: false,
+          customClass: {
+            container: "my-swal",
+            popup: "my-popup"
+          }
+        });
+        return false;
+      }
+    }
+  }).then(function(e) {
+    if (e.value) {
+      Boot.prototype.game._state._current.user.source.getPlayerData().gold = parseInt(e.value);
+      Boot.prototype.game._state._current.user.source.data.gold = parseInt(e.value);
+      Boot.prototype.game._state._current.user.source.updated = true;
+      Swal.fire({
+        title: "Success",
+        text: "Gold set successfully",
+        icon: "success",
+        timer: 1500,
+        showConfirmButton: false,
+        customClass: {
+          container: "my-swal",
+          popup: "my-popup"
+        }
+      });
+    }
+  });
+});
