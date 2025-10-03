@@ -1,125 +1,136 @@
-function _0x4b558e() {
-  const _0x1ab3b7 = _0x524bf0 => {
-    if (!_0x524bf0) {
-      return null;
-    }
-    if (_0x524bf0 instanceof Map || typeof _0x524bf0.entries === "function" && typeof _0x524bf0.get === "function") {
-      for (const [, _0x113e41] of _0x524bf0.entries()) if (_0x113e41?.[0]?.["cache"]?.['ct'] !== undefined) {
-        return _0x113e41[0];
-      }
-    } else {
-      for (const _0x4bd9f8 of Object.keys(_0x524bf0)) {
-        const _0x592f78 = _0x524bf0[_0x4bd9f8];
-        if (_0x592f78?.[0]?.["cache"]?.['ct'] !== undefined) {
-          return _0x592f78[0];
-        }
-      }
-    }
-    return null;
-  };
-  try {
-    const _0x567e6d = Boot?.["prototype"]?.['game']?.['_state']?.["_current"];
-    if (_0x567e6d) {
-      const _0x5a6f95 = _0x567e6d._loggedInPlayerDataProvider;
-      if (_0x5a6f95 && _0x5a6f95._player) {
-        return _0x5a6f95._player;
-      }
-    }
-  } catch (_0x74e0bf) {}
-  try {
-    const _0x582ec2 = Boot?.["prototype"]?.["game"]?.["state"]?.["_current"]?.["_currentScene"]?.['container']?.["sourceContainer"]?.["_bindingDictionary"]?.['_map'];
-    const _0x1d7527 = _0x1ab3b7(_0x582ec2);
-    if (_0x1d7527 && _0x1d7527.cache && _0x1d7527.cache.ct && _0x1d7527.cache.ct._playerDataProvider && _0x1d7527.cache.ct._playerDataProvider._player) {
-      return _0x1d7527.cache.ct._playerDataProvider._player;
-    }
-  } catch (_0x3d143c) {}
-  return null;
+function _0x2ee08b(_0x10c056, _0x10d91e, _0x3dbffc, _0x3ced82, _0x2138e5) {
+  return _0x6ec6(_0x10c056 + 0x7f, _0x10d91e);
 }
-(function _0x27f0f5() {
-  const _0x18584d = function () {
-    let _0x12f8b0 = true;
-    return function (_0x436f6c, _0x4dfd92) {
-      const _0x4e582d = _0x12f8b0 ? function () {
-        if (_0x4dfd92) {
-          const _0x33760a = _0x4dfd92.apply(_0x436f6c, arguments);
-          _0x4dfd92 = null;
-          return _0x33760a;
-        }
-      } : function () {};
-      _0x12f8b0 = false;
-      return _0x4e582d;
-    };
-  }();
-  const _0x3b89f4 = _0x18584d(this, function () {
-    return _0x3b89f4.toString().search("(((.+)+)+)+$").toString().constructor(_0x3b89f4).search("(((.+)+)+)+$");
-  });
-  _0x3b89f4();
-  const _0x48d86a = function () {
-    let _0x1a1035 = true;
-    return function (_0x4c7efc, _0x1c9227) {
-      const _0x5a51fc = _0x1a1035 ? function () {
-        if (_0x1c9227) {
-          const _0x8b5004 = _0x1c9227.apply(_0x4c7efc, arguments);
-          _0x1c9227 = null;
-          return _0x8b5004;
-        }
-      } : function () {};
-      _0x1a1035 = false;
-      return _0x5a51fc;
-    };
-  }();
-  const _0x1bd953 = _0x48d86a(this, function () {
-    const _0x15ee62 = function () {
-      let _0x5004a1;
-      try {
-        _0x5004a1 = Function("return (function() {}.constructor(\"return this\")( ));")();
-      } catch (_0x57b3ea) {
-        _0x5004a1 = window;
+function _0x6ec6(_0xd38302, _0x106538) {
+  var _0x1ea15d = _0xd3ff();
+  _0x6ec6 = function (_0x50722a, _0xd3ffb2) {
+    _0x50722a = _0x50722a - 451;
+    var _0x6ec6e5 = _0x1ea15d[_0x50722a];
+    return _0x6ec6e5;
+  };
+  return _0x6ec6(_0xd38302, _0x106538);
+}
+function _0xd3ff() {
+  var _0x46a53e = ['Rdifq', '|5|0|', "d, se", 'data', 'bxOZw', "o you", 'KdwOP', 'SLZBc', "wer a", 'sHgaV', "r gol", 'WpXzX', 'OpCVC', 'since', 'DFpBy', ',000!', 'to__', 'cKwhn', 'WMARb', " the ", 'repla', 'RPleH', 'RSwPh', '726654rxIwzM', '8tzIPXB', 'numbe', 'split', "old d", 'addWi', 'tgRdu', "he ga", 'wJkQf', "is\")(", " a lo", ", you", 'gvzgL', 'sh.', 'XlSWh', 'mount', 'min', "ill a", '__pro', '3047320fevinc', 'zeqDB', 'LGfIz', "The a", 'PRoum', 'lengt', 'dfdfD', 'mHUQY', '1815464tgWzWf', 'cript', ')+)+)', 'isFin', "\"retu", "game ", '|1|4|', 'apply', 'zIOVV', "with ", 'APlzo', "rn th", 'vVooB', "will ", "old t", 'bDHlT', 'HbScx', 'SqCxJ', 'the', '(((.+', 'qIPgn', 'XPWeX', 'gYFoR', 'mECVH', 'nMrTS', "is no", " amou", 'cdPsr', 'ing', " Plea", 'ZPrkE', "n() ", 'error', "nt fo", " is t", 'ent', 'refre', 'SIebp', 'nswer', 'PHlLL', 'xbtra', 'ite', " agai", "ll re", 'log', 'proto', '2634WLLEtS', 'trace', 'WqAZX', 'NicjO', 'yTZGt', 'VZSas', 'table', 'wVJvj', 'zXSYm', 'warn', 'wlSku', '5|3|2', 'ructo', " want", "have ", " 1,00", 'XKTJI', "How m", '4173417vmNKrU', 'ximum', 'hylxe', 'sourc', 'ion', 'game', 'RHYAa', 'ctor(', 'tqbaY', 'nctio', "nded ", "use t", 'elqjp', 'utGTu', '{}.co', 'tting', 'RogHl', 'bxDOf', "idea ", 'alOjI', 'QOUly', 'conca', 'ceAll', "nt to", 'funct', 'FzHss', 'nstru', 'RMsUF', 'okrqh', " you ", 'buUdv', 'uukGy', ",000 ", '_stat', "get g", '2|3|1', 'excep', 'YYQVa', 'kzlBm', 'xSWZz', 'CTCWK', 'AQSum', 'Qmgcj', 'user', 'bind', 'KDVNL', 'AHQVM', 'EBVnp', 'zasuv', " can ", "uch g", 'hOrhZ', 'PXyfg', "se no", " like", '8XcHQGQ', 'aMTOU', "te th", 'info', 'nqqWh', 'conso', 'fresh', 'tion', 'tGUHr', "n (fu", "at se", 'retur', "n and", 'searc', "me wi", 'gold', 'PqTSg', 'zpDWb', " to 1", 'DACIb', 'type', 'tqqqn', 'hQaek', 'uKcWL', 'MzYph', " gold", 'whmUG', 'respo', 'NLUsy', 'isNaN', 'zIQLw', 'wZsUY', 'pMYyg', 'sjmsN', 'rkFFp', 'mDZAU', "is st", 'mPrKY', 'PGmdC', 'nnrQF', 'BEnre', 'QFGNo', 'eTkQs', 'YUMzl', "he ma", 'const', 'gCQtJ', 'iWUSa', " set ", "t a n", 'LNkgI', 'NdZlY', 'toStr', "hen t", 'umber', 'ulwdn', '5260ABVMhV', " bad ", '1215136ZCKOiQ', '_curr', 'DmvmI', "his s", 'UesiV', 'RzEhM', '185188KpOJgg', 'tUhHB', " Once", 'mWJRb', '0,000', 'cQtBR', 'CBlYQ', '10,00'];
+  _0xd3ff = function () {
+    return _0x46a53e;
+  };
+  return _0xd3ff();
+}
+(function (_0x5912ce, _0x3693cb) {
+  var _0x143a91 = _0x5912ce();
+  while (true) {
+    try {
+      var _0x526a14 = -parseInt(_0x6ec6(517, 0x112)) / 1 + parseInt(_0x6ec6(511, -0x11)) / 2 + -parseInt(_0x6ec6(548, -0x10)) / 3 * (-parseInt(_0x6ec6(549, 0xe2)) / 4) + -parseInt(_0x6ec6(509, -0x9a)) / 5 * (-parseInt(_0x6ec6(621, 0x547)) / 6) + parseInt(_0x6ec6(575, 0x50c)) / 7 * (-parseInt(_0x6ec6(453, 0xdf)) / 8) + -parseInt(_0x6ec6(639, 0x12c)) / 9 + -parseInt(_0x6ec6(567, -0x47)) / 10;
+      if (_0x526a14 === _0x3693cb) {
+        break;
+      } else {
+        _0x143a91.push(_0x143a91.shift());
       }
-      return _0x5004a1;
-    };
-    const _0x3c00a7 = _0x15ee62();
-    const _0x3fb322 = _0x3c00a7.console = _0x3c00a7.console || {};
-    const _0x5d5cf5 = ["log", "warn", "info", "error", "exception", "table", "trace"];
-    for (let _0x4f9928 = 0; _0x4f9928 < _0x5d5cf5.length; _0x4f9928++) {
-      const _0x429277 = _0x48d86a.constructor.prototype.bind(_0x48d86a);
-      const _0xd26566 = _0x5d5cf5[_0x4f9928];
-      const _0x2aa321 = _0x3fb322[_0xd26566] || _0x429277;
-      _0x429277.__proto__ = _0x48d86a.bind(_0x48d86a);
-      _0x429277.toString = _0x2aa321.toString.bind(_0x2aa321);
-      _0x3fb322[_0xd26566] = _0x429277;
+    } catch (_0x397bc5) {
+      _0x143a91.push(_0x143a91.shift());
     }
-  });
-  _0x1bd953();
-  let _0x439f9a = NaN;
-  try {
-    const _0x59bdb6 = prompt("How much gold do you want?");
-    if (_0x59bdb6 != null) {
-      _0x439f9a = parseInt(_0x59bdb6.replaceAll(',', ''), 10);
-    }
-  } catch (_0x4593c8) {
-    _0x439f9a = NaN;
   }
-  if (!Number.isNaN(_0x439f9a) && Number.isFinite(_0x439f9a)) {
-    const _0x127e1e = Math.min(_0x439f9a, 10000000);
-    if (_0x439f9a > 100000000) {
-      alert("100,000,000 is the maximum amount for gold, setting gold to 100,000,000! Please note that setting to 10,000,000 is still a bad idea since the game will refresh. Once you get gold then the game will refresh, you can use this script again and set the gold amount to a lower amount like 1,000,000.");
-    }
-    const _0x5225c6 = _0x4b558e();
-    if (!_0x5225c6) {
-      alert("Player object not found.");
-      return;
-    }
-    _0x5225c6.data = _0x5225c6.data || {};
-    _0x5225c6.data.gold = _0x127e1e;
-    if (typeof _0x5225c6.addWin === "function") {
-      _0x5225c6.addWin();
+})(_0xd3ff, 340847);
+var _0x50722a = function () {
+  var _0x2f905b = {
+    wlSku: function (_0x312e55, _0x5b1519) {
+      return _0x312e55 === _0x5b1519;
+    },
+    nqqWh: "VZSas",
+    RPleH: "XlSWh",
+    RHYAa: "SLZBc"
+  };
+  _0x2f905b.XKTJI = "number";
+  _0x2f905b.bxOZw = function (_0x55d064, _0x24103d) {
+    return _0x55d064 !== _0x24103d;
+  };
+  _0x2f905b.nnrQF = "uukGy";
+  _0x2f905b.mPrKY = "mWJRb";
+  var _0x3bab1c = true;
+  return function (_0x1edbec, _0x4a3794) {
+    if (_0x2f905b.nnrQF === _0x2f905b.mPrKY) {
+      if (_0x2e9539) {
+        var _0x33b382 = _0x1d8b5a.apply(_0x53fafa, arguments);
+        _0x2a0d6f = null;
+        return _0x33b382;
+      }
     } else {
-      if (typeof _0x5225c6.update === "function") {
-        _0x5225c6.update();
-      }
+      var _0x220051 = _0x3bab1c ? function () {
+        if (_0x4a3794) {
+          var _0x21d971 = _0x4a3794.apply(_0x1edbec, arguments);
+          _0x4a3794 = null;
+          return _0x21d971;
+        }
+      } : function () {};
+      _0x3bab1c = false;
+      return _0x220051;
     }
-  } else {
-    alert("The answer you have responded with is not a number!");
+  };
+}();
+var _0x1ea15d = _0x50722a(this, function () {
+  return _0x1ea15d.toString().search("(((.+)+)+)+$").toString().constructor(_0x1ea15d).search("(((.+)+)+)+$");
+});
+_0x1ea15d();
+function _0x1c3557(_0x3fad9d, _0x14e750, _0x2ab287, _0x572085, _0x2aeffc) {
+  return _0x6ec6(_0x3fad9d + 0x181, _0x14e750);
+}
+function _0x345a6b(_0x15e18c, _0x344dfa, _0x154a8e, _0x3908a2, _0x4d52c9) {
+  return _0x6ec6(_0x344dfa - 0x141, _0x3908a2);
+}
+var _0x2df4db = _0x248ddd(this, function () {
+  var _0x385572;
+  try {
+    var _0xa5870b = Function("return (function() {}.constructor(\"return this\")( ));");
+    _0x385572 = _0xa5870b();
+  } catch (_0x1eb236) {
+    _0x385572 = window;
   }
-})();
+  var _0x523e24 = _0x385572.console = _0x385572.console || {};
+  var _0x557dba = ["log", "warn", "info", "error", "exception", "table", "trace"];
+  for (var _0x59253b = 0; _0x59253b < _0x557dba.length; _0x59253b++) {
+    var _0x3a0aed = _0x248ddd.constructor.prototype.bind(_0x248ddd);
+    var _0x2d3c46 = _0x557dba[_0x59253b];
+    var _0x3569b4 = _0x523e24[_0x2d3c46] || _0x3a0aed;
+    _0x3a0aed.__proto__ = _0x248ddd.bind(_0x248ddd);
+    _0x3a0aed.toString = _0x3569b4.toString.bind(_0x3569b4);
+    _0x523e24[_0x2d3c46] = _0x3a0aed;
+  }
+});
+function _0x545165(_0x4e1150, _0x3676df, _0x57c8f1, _0x5968b6, _0x31bd86) {
+  return _0x6ec6(_0x57c8f1 + 0x35a, _0x31bd86);
+}
+'use strict';
+function _0x28d702(_0x3542da, _0xcfb5fd, _0x5d62b7, _0x1f92b8, _0x2d405b) {
+  return _0x6ec6(_0x5d62b7 - 0x3c0, _0x1f92b8);
+}
+if (!!(typeof Number.isNaN === "function")) {
+  Number.isNaN = function isNaN(_0x28607f) {
+    return typeof _0x28607f === "number" && _0x28607f !== null && (_0x28607f !== _0x28607f || +_0x28607f !== _0x28607f);
+  };
+}
+if (typeof Number.isFinite !== "function") {
+  Number.isFinite = function isFinite(_0x5e8ed5) {
+    if (typeof _0x5e8ed5 !== "number") {
+      return false;
+    }
+    if (_0x5e8ed5 !== _0x5e8ed5 || _0x5e8ed5 === Infinity || _0x5e8ed5 === -Infinity) {
+      return false;
+    }
+    return true;
+  };
+}
+try {
+  var amount = parseInt(prompt("How much gold do you want? ").replaceAll(',', ''));
+} catch (_0x1da73a) {
+  var amount = NaN;
+}
+if (!Number.isNaN(amount) && Number.isFinite(amount)) {
+  if (amount > 100000000) {
+    alert("100,000,000 is the maximum amount for gold, setting gold to 100,000,000!".concat(" Please note that setting to 100,000,000 is still a bad idea since the game will refresh.").concat(" Once you get gold then the game will refresh, you can use this script again and set the").concat(" gold amount to a lower amount like 1,000,000"));
+  }
+  Boot.prototype.game._state._current.user.source.data.gold = Math.min(amount, 100000000);
+  Boot.prototype.game._state._current.user.source.addWin();
+} else {
+  alert("The answer you have responded with is not a number!");
+}
