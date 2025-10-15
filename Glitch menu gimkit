@@ -11648,7 +11648,7 @@
 			if (dragState == 'waiting') return;
 			dragDistance += Math.abs(event.movementX) + Math.abs(event.movementY);
 
-			if (dragState == 'checking' && dragDistance > 10) {
+			if (dragState == 'checking' && dragDistance > 100) {
 				dragState = 'dragging';
 				return;
 			}
@@ -19960,8 +19960,8 @@
 		let slider_props = {
 			title: "Speedup Amount",
 			min: 1,
-			max: /*maxSpeedupMultiplier*/ ctx[6],
-			step: 0.010
+			max: /*maxSpeedupMultiplier*/ ctx[3],
+			step: 0.005
 		};
 
 		if (/*speedupMultiplier*/ ctx[0] !== void 0) {
@@ -19970,26 +19970,26 @@
 
 		slider = new Slider({ props: slider_props });
 		binding_callbacks.push(() => bind(slider, 'value', slider_value_binding));
-		slider.$on("input", /*onSpeedupMultChange*/ ctx[6]);
+		slider.$on("input", /*onSpeedupMultChange*/ ctx[5]);
 
 		function togglebutton_enabled_binding(value) {
-			/*togglebutton_enabled_binding*/ ctx[10](value);
+			/*togglebutton_enabled_binding*/ ctx[7](value);
 		}
 
 		let togglebutton_props = {
-			disabled: !/*$storesLoaded*/ ctx[4],
+			disabled: !/*$storesLoaded*/ ctx[2],
 			onText: "Speedup: On",
 			offText: "Speedup: Off",
 			hotkeyId: "speedup"
 		};
 
-		if (/*speedupEnabled*/ ctx[4] !== void 0) {
-			togglebutton_props.enabled = /*speedupEnabled*/ ctx[4];
+		if (/*speedupEnabled*/ ctx[1] !== void 0) {
+			togglebutton_props.enabled = /*speedupEnabled*/ ctx[1];
 		}
 
 		togglebutton = new ToggleButton({ props: togglebutton_props });
 		binding_callbacks.push(() => bind(togglebutton, 'enabled', togglebutton_enabled_binding));
-		togglebutton.$on("click", /*click_handler*/ ctx[10]);
+		togglebutton.$on("click", /*click_handler*/ ctx[8]);
 
 		return {
 			c() {
@@ -20069,7 +20069,7 @@
 			p(ctx, [dirty]) {
 				const group_changes = {};
 
-				if (dirty & /*$$scope, $storesLoaded, speedupEnabled, speedupMultiplier*/ 99999) {
+				if (dirty & /*$$scope, $storesLoaded, speedupEnabled, speedupMultiplier*/ 4103) {
 					group_changes.$$scope = { dirty, ctx };
 				}
 
@@ -20177,13 +20177,13 @@
 
 	function get_each_context(ctx, list, i) {
 		const child_ctx = ctx.slice();
-		child_ctx[10] = list[i];
+		child_ctx[9] = list[i];
 		return child_ctx;
 	}
 
 	function get_each_context_1(ctx, list, i) {
 		const child_ctx = ctx.slice();
-		child_ctx[10] = list[i];
+		child_ctx[9] = list[i];
 		return child_ctx;
 	}
 
