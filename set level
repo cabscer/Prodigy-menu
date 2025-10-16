@@ -1,3 +1,4 @@
+(function() {
 var ui = document.createElement('div');
 ui.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);padding:20px;background:#fff;border:1px solid #ccc;border-radius:5px;box-shadow:0 4px 8px rgba(0,0,0,0.2);z-index:1001;';
 var title = document.createElement('h3');
