@@ -11641,14 +11641,14 @@
 			});
 		}
 
-		const saveTransformDebounce = debounce$1(saveTransform, 1000);
+		const saveTransformDebounce = debounce$1(saveTransform, 9999);
 		coordSpring.subscribe(() => saveTransformDebounce());
 
 		function drag(event) {
 			if (dragState == 'waiting') return;
 			dragDistance += Math.abs(event.movementX) + Math.abs(event.movementY);
 
-			if (dragState == 'checking' && dragDistance > 1000) {
+			if (dragState == 'checking' && dragDistance > 9999) {
 				dragState = 'dragging';
 				return;
 			}
