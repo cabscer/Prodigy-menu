@@ -1,2 +1,64 @@
-(function(){var _0x540c65=_0x295e;(function(_0x27441e,_0x467624){var _0x2f528e=_0x295e,_0x32f141=_0x27441e();while(!![]){try{var _0x964bff=-parseInt(_0x2f528e(0x1f4))/0x1*(parseInt(_0x2f528e(0x1fa))/0x2)+-parseInt(_0x2f528e(0x1fe))/0x3+parseInt(_0x2f528e(0x1dd))/0x4+parseInt(_0x2f528e(0x1f3))/0x5+-parseInt(_0x2f528e(0x1ee))/0x6*(-parseInt(_0x2f528e(0x1d2))/0x7)+parseInt(_0x2f528e(0x1e4))/0x8*(-parseInt(_0x2f528e(0x1db))/0x9)+-parseInt(_0x2f528e(0x1f9))/0xa;if(_0x964bff===_0x467624)break;else _0x32f141['push'](_0x32f141['shift']());}catch(_0x4d5961){_0x32f141['push'](_0x32f141['shift']());}}}(_0xe6b2,0x1f905));function _0x295e(_0x3b127e,_0x24b41b){var _0xe6b2bf=_0xe6b2();return _0x295e=function(_0x295e27,_0x450839){_0x295e27=_0x295e27-0x1cc;var _0x328857=_0xe6b2bf[_0x295e27];return _0x328857;},_0x295e(_0x3b127e,_0x24b41b);}var ui=document[_0x540c65(0x1ef)](_0x540c65(0x1d5));ui[_0x540c65(0x1cd)][_0x540c65(0x1dc)]=_0x540c65(0x1e8);var title=document[_0x540c65(0x1ef)]('h3');title[_0x540c65(0x1fd)]=_0x540c65(0x1fb),ui['appendChild'](title);var input=document['createElement'](_0x540c65(0x1f1));input[_0x540c65(0x1de)]='number',input[_0x540c65(0x1cc)]=_0x540c65(0x1ec),input[_0x540c65(0x1f0)]=_0x540c65(0x1e9),input['style']['cssText']=_0x540c65(0x1d3),ui[_0x540c65(0x1ce)](input);function _0xe6b2(){var _0xbe06fb=['328GnYWoo','saveEnabled','Set\x20Level','round','position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);padding:20px;background:#fff;border:1px\x20solid\x20#ccc;border-radius:5px;box-shadow:0\x204px\x208px\x20rgba(0,0,0,0.2);z-index:1001;','99999999999999999999999999999999','onclick','forceSaveCharacter','-99999999','removeChild','78210eFtccB','createElement','max','input','_state','855735DTchJY','40464DoMmtn','Enter\x20a\x20valid\x20number\x20(-99999999-99,999,999,999,999,999,999,999,999,999,999).','user','padding:10px\x2015px;background:red;color:white;border:none;border-radius:4px;cursor:pointer;margin-left:10px;','processStars','1312770gegmUZ','6uPfBcl','Set\x20Player\x20Level','stars','textContent','110799kKWiLm','min','style','appendChild','_current','appearanceChanged','body','63VwvWzr','width:100%;padding:8px;border:1px\x20solid\x20#ccc;border-radius:4px;margin-bottom:10px;','pow','div','prototype','game','source','button','getStarsToLevel','16947ZFQcPA','cssText','830512yfgOSR','type','Cancel','data','level','getLevel','value'];_0xe6b2=function(){return _0xbe06fb;};return _0xe6b2();}var submit=document['createElement'](_0x540c65(0x1d9));submit['textContent']=_0x540c65(0x1e6),submit[_0x540c65(0x1cd)][_0x540c65(0x1dc)]='padding:10px\x2015px;background:green;color:white;border:none;border-radius:4px;cursor:pointer;',submit[_0x540c65(0x1ea)]=function(){var _0x2bb117=_0x540c65,_0x3e7a0e=parseInt(input[_0x2bb117(0x1e3)]);if(isNaN(_0x3e7a0e)||_0x3e7a0e<-0x5f5e0ff||_0x3e7a0e>0x4ee2d6d415b85c0000000000000){alert(_0x2bb117(0x1f5));return;}function _0x2db102(_0x254c51){var _0x20f6bd=_0x2bb117,_0x389263=Boot[_0x20f6bd(0x1d6)][_0x20f6bd(0x1d7)][_0x20f6bd(0x1f2)][_0x20f6bd(0x1cf)][_0x20f6bd(0x1f6)][_0x20f6bd(0x1d8)],_0x3d5664=_0x254c51;if(_0x3d5664===0x1){_0x389263[_0x20f6bd(0x1e0)][_0x20f6bd(0x1fc)]=0x0,_0x389263[_0x20f6bd(0x1e0)]['level']=0x1,_0x389263[_0x20f6bd(0x1e2)]=()=>{return 0x1;},Boot[_0x20f6bd(0x1d6)][_0x20f6bd(0x1d7)][_0x20f6bd(0x1f2)][_0x20f6bd(0x1cf)][_0x20f6bd(0x1f6)]['source'][_0x20f6bd(0x1e0)]['level']=_0x3d5664,Boot[_0x20f6bd(0x1d6)][_0x20f6bd(0x1d7)][_0x20f6bd(0x1f2)][_0x20f6bd(0x1cf)][_0x20f6bd(0x1f6)][_0x20f6bd(0x1d8)][_0x20f6bd(0x1e2)]=()=>{return _0x3d5664;};return;}var _0x11bfa7=_0x3d5664-0x2,_0x1db7ad=1.042;_0x389263[_0x20f6bd(0x1e0)][_0x20f6bd(0x1fc)]=Math[_0x20f6bd(0x1e7)]((0x1-Math[_0x20f6bd(0x1d4)](_0x1db7ad,_0x11bfa7))/(0x1-_0x1db7ad)*0x14+0xa),_0x389263[_0x20f6bd(0x1e0)][_0x20f6bd(0x1e1)]=+_0x3d5664,Boot[_0x20f6bd(0x1d6)][_0x20f6bd(0x1d7)][_0x20f6bd(0x1f2)][_0x20f6bd(0x1cf)][_0x20f6bd(0x1f6)][_0x20f6bd(0x1d8)][_0x20f6bd(0x1e0)]['level']=_0x3d5664,Boot['prototype'][_0x20f6bd(0x1d7)]['_state']['_current'][_0x20f6bd(0x1f6)]['source'][_0x20f6bd(0x1e2)]=()=>{return _0x3d5664;};}_0x2db102(_0x3e7a0e);var _0x4be774=Boot[_0x2bb117(0x1d6)][_0x2bb117(0x1d7)][_0x2bb117(0x1f2)][_0x2bb117(0x1cf)][_0x2bb117(0x1f6)]['source'];_0x4be774[_0x2bb117(0x1e0)]['stars']+=eval(_0x4be774[_0x2bb117(0x1da)]()),_0x4be774[_0x2bb117(0x1f8)](),_0x4be774[_0x2bb117(0x1e5)]=!![],_0x4be774[_0x2bb117(0x1eb)](),_0x4be774[_0x2bb117(0x1d0)]=!![],document['body'][_0x2bb117(0x1ed)](ui);},ui['appendChild'](submit);var cancel=document[_0x540c65(0x1ef)]('button');cancel[_0x540c65(0x1fd)]=_0x540c65(0x1df),cancel['style'][_0x540c65(0x1dc)]=_0x540c65(0x1f7),cancel[_0x540c65(0x1ea)]=function(){var _0x55aa68=_0x540c65;document[_0x55aa68(0x1d1)]['removeChild'](ui);},ui[_0x540c65(0x1ce)](cancel),document[_0x540c65(0x1d1)][_0x540c65(0x1ce)](ui);
-// made by cabscer
+var ui = document.createElement('div');
+ui.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);padding:20px;background:#fff;border:1px solid #ccc;border-radius:5px;box-shadow:0 4px 8px rgba(0,0,0,0.2);z-index:1001;';
+var title = document.createElement('h3');
+title.textContent = 'Set Player Level';
+ui.appendChild(title);
+var input = document.createElement('input');
+input.type = 'number';
+input.min = '-99999999';
+input.max = '99999999999999999999999999999999';
+input.style.cssText = 'width:100%;padding:8px;border:1px solid #ccc;border-radius:4px;margin-bottom:10px;';
+ui.appendChild(input);
+var submit = document.createElement('button');
+submit.textContent = 'Set Level';
+submit.style.cssText = 'padding:10px 15px;background:green;color:white;border:none;border-radius:4px;cursor:pointer;';
+submit.onclick = function() {
+    var level = parseInt(input.value);
+    if (isNaN(level) || level < -99999999 || level > 99999999999999999999999999999999) {
+        alert("Enter a valid number (-99999999-99,999,999,999,999,999,999,999,999,999,999).");
+        return;
+    }
+
+    // Function to set the player level
+    function setLevel(lvl) {
+        var player = Boot.prototype.game._state._current.user.source;
+        var level_value = lvl;
+
+        if (level_value === 1) {
+            player.data.stars = 0;
+            player.data.level = 1;
+            player.getLevel = () => { return 1 };
+            Boot.prototype.game._state._current.user.source.data.level = level_value;
+            Boot.prototype.game._state._current.user.source.getLevel = () => { return level_value };
+            return;
+        }
+
+        var i = level_value - 2;
+        var xpConstant = 1.042;
+
+        player.data.stars = Math.round((1 - Math.pow(xpConstant, i)) / (1 - xpConstant) * 20 + 10);
+        player.data.level = +level_value;
+
+        Boot.prototype.game._state._current.user.source.data.level = level_value;
+        Boot.prototype.game._state._current.user.source.getLevel = () => { return level_value };
+    }
+
+    // Apply level changes
+    setLevel(level);
+    var source = Boot.prototype.game._state._current.user.source;
+    source.data.stars += eval(source.getStarsToLevel()); // Update stars
+    source.processStars();
+    source.saveEnabled = true;
+    source.forceSaveCharacter();
+    source.appearanceChanged = true;
+    document.body.removeChild(ui);
+};
+ui.appendChild(submit);
+var cancel = document.createElement('button');
+cancel.textContent = 'Cancel';
+cancel.style.cssText = 'padding:10px 15px;background:red;color:white;border:none;border-radius:4px;cursor:pointer;margin-left:10px;';
+cancel.onclick = function() {
+    document.body.removeChild(ui);
+};
+ui.appendChild(cancel);
+document.body.appendChild(ui);
