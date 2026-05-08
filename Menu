@@ -66,7 +66,7 @@
 
     // Create the main header
     var mainHeader = document.createElement('h1');
-    mainHeader.innerText = 'Equinox-Hack Menu V3';
+    mainHeader.innerText = 'Equinox-Hack Menu V1';
     mainHeader.style.textAlign = 'center';
     mainHeader.style.color = '#333';
     mainHeader.style.fontSize = '42px'; // Slightly larger font size
@@ -124,7 +124,7 @@
     
     // Button 2: Change Name
     createDemoButton('Change Name', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Name%20And%20Nickname%20Changer%20Script";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/set%20name";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -135,7 +135,7 @@
 
     // Button 3: Get All Pets 150
     createDemoButton('get all pets 150', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cabscer/refs/heads/main/Get%20all%20pets%20prodigy";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/get%20all%20pets%20100";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -146,7 +146,7 @@
 
     // Button 4: Item Management
     createDemoButton('Item Management', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Item%20Management%20Script";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/item%20stacker";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -157,7 +157,7 @@
 
     // Button 5: Basic Player Teleporter
     createDemoButton('Basic Player Teleporter', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/BASIC%20Player%20Teleporter%20Script";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/teleport";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -166,9 +166,9 @@
             .catch(error => console.error("Failed to load the script:", error));
     });
 
-    // Button 6: Mount Selector UI
-    createDemoButton('Mount Selector', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Mount%20Selector%20Script";
+    // Button 6: Clear Inventory
+    createDemoButton('Clear Inventory', function() {
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/clear%20inventory";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -177,8 +177,8 @@
             .catch(error => console.error("Failed to load the script:", error));
     });
 
-    createDemoButton('Change Appearance', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Player%20Appearance%20UI";
+    createDemoButton('Save Inventory', function() {
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/save%20inventory";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -187,8 +187,8 @@
             .catch(error => console.error("Failed to load the script:", error));
     });
 
-    createDemoButton('Item Selector', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Advanced%20Item%20Selector";
+    createDemoButton('Perma Morph', function() {
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/perma%20morph";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -201,7 +201,7 @@
 
     // Button 6.5: Set Gold
     createDemoButton('Set Gold', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/cabscer/Prodigy-menu/refs/heads/main/JS%20set%20gold";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/set%20gold";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -213,7 +213,7 @@
     
     // Button 7: Set Tower
     createDemoButton('Set Tower', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Set%20Tower%20Level";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/dark%20tower";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -224,7 +224,7 @@
 
     // Button 8: Temporary Membership
     createDemoButton('Temporary Membership', function() { 
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Temporary%20Membership%20Script";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/member";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -236,7 +236,7 @@
 
     // Button 9: Set Level
     createDemoButton('Set Level', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Set%20Player%20Level";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/set%20level";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -246,7 +246,7 @@
     });
 
     createDemoButton('All Furniture', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Unlock%20All%20Furniture";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/obtain%20furniture";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -257,7 +257,7 @@
 
     // Button 10: Set Bounty
     createDemoButton('Set Bounty', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Set%20Bounty";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/bounty";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -281,7 +281,7 @@
 
     // Button 12: Set Member Stars
     createDemoButton('Set Member Stars', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Set%20Member%20Stars";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/member%20star";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
@@ -303,7 +303,7 @@
     });
 
     createDemoButton('Set Walkspeed', function() {
-        const scriptUrl = "https://raw.githubusercontent.com/CrackinPMG2024/HackMenu/main/Set%20Walk%20Speed";
+        const scriptUrl = "https://raw.githubusercontent.com/cabscer/cornball-prod-menu/refs/heads/main/walk-speed";
         fetch(scriptUrl)
             .then(response => response.text())
             .then(code => {
